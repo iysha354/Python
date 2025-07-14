@@ -1,0 +1,10 @@
+Fiction|The Kite Runner|Khaled Hosseini|10.99|A gripping novel about friendship and redemption.
+Fiction|And the Mountains Echoed|Khaled Hosseini|12.99|A multigenerational family saga.
+Fiction|A Thousand Splendid Suns|Khaled Hosseini|11.99|A novel about two women in Afghanistan.
+Poetry|Milk and Honey|Rupi Kaur|8.99|A collection of poems about love, loss, and healing.
+Poetry|The Sun and Her Flowers|Rupi Kaur|9.99|Poetry collection about growth and self-love.
+Poetry|Home Body|Rupi Kaur|10.99|Poetry about introspection and the self.
+Nonfiction|The Forty Rules of Love|Elif Shafak|14.99|A novel exploring love through Rumi's teachings.
+Nonfiction|The Bastard of Istanbul|Elif Shafak|13.99|A story about family and history in Istanbul.
+Nonfiction|A Case of Exploding Mangoes|Mohammad Hanif|13.49|A humorous novel set around the political turmoil in Pakistan.
+Nonfiction|The Art of Happiness|Dalai Lama|15.99|A philosophical guide to achieving happiness.

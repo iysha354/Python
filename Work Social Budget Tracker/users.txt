@@ -1,0 +1,5 @@
+Iysha,password,employee,Marketing
+Iysha khan,password,manager,Marketing
+Sham,password,manager,HR
+iysha|iysha|password|volunteer|cook
+iysha|iysha|password|admin|

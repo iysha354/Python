@@ -1,0 +1,75 @@
+Online Orders Log
+-------------------
+
+Customer: Iysha, Address: nclnva dkkd#
+ - coffee
+ - Coffee
+Total: £2.50
+
+
+Customer: Iysha, Address: 354 king
+ - Coffee
+Total: £2.50
+
+
+Customer: Iysha, Address: 56
+Total: £0.00
+
+
+Customer: & "C:/Users/IyshaK(AWS-X6-BL)/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/IyshaK(AWS-X6-BL)/Desktop/Python/AZ-NAT3-python-modules/book shop 4.py", Address: mm
+Total: £0.00
+
+Customer: Iysha, Address: 354 a king street
+ - Coffee
+Total: £2.50
+
+Customer: Iysha, Address: 23 garden lane
+ - & "C:/Users/IyshaK(AWS-X6-BL)/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/IyshaK(AWS-X6-BL)/Desktop/Python/AZ-NAT3-python-modules/TIFC1-PF-XX - application-project/application-project-v1/materials/Sweet Bakes 2.py"
+ - & "C:/Users/IyshaK(AWS-X6-BL)/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/IyshaK(AWS-X6-BL)/Desktop/Python/AZ-NAT3-python-modules/TIFC1-PF-XX - application-project/application-project-v1/materials/Sweet Bakes 2.py"
+Total: £0.00
+
+Customer: Iysha, Address: 354 a king street
+ - & "C:/Users/IyshaK(AWS-X6-BL)/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/IyshaK(AWS-X6-BL)/Desktop/Python/AZ-NAT3-python-modules/The Book Nook.py"
+Total: £0.00
+
+Customer: Iysha, Address: 354a king street
+ - Brick Lane
+ - Brick Lane - Monica Ali
+ - Arabic Coffee
+ - Samosa Chaat
+Total: £6.00
+
+Customer: & "C:/Users/IyshaK(AWS-X6-BL)/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/IyshaK(AWS-X6-BL)/Desktop/Python/AZ-NAT3-python-modules/The Book Nook.py", Address: 354 a king street
+ - The Kite Runner
+ - Samosa Chaat
+ - Mint Tea
+ - Pride and Prejudice
+ - The kite runner
+ - The Kite Runner
+Total: £4.25
+
+Customer: Iysha, Address: 373874
+ - Arabic Coffee
+ - Mint Tea
+Total: £3.40
+
+Customer: Iysha, Address: 354a king street
+ - Samosa Chaat
+ - The Kite Runner
+ - Mint Tea
+Total: £6.80
+
+Customer: Iysha, Address: 354
+ - Pink Chai
+ - Mango Lassi
+ - The Mountains Echoed
+Total: £8.92
+
+Customer: Iysha, Address: 354
+Total: £0.00
+
+Customer: Iysha, Address: 354 a king street
+ - Mint Tea: £1.50
+ - Pride and Poppadoms - Nadiya Hussain: £6.99
+Total: £7.22
+

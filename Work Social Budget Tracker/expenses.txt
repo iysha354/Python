@@ -1,0 +1,3 @@
+{'user': 'Iysha', 'department': 'Marketing', 'category': 'food', 'amount': 20.0, 'event': 'Lunch at Masala Zone', 'date': '2025-06-07'}
+{'user': 'Iysha', 'role': 'employee', 'department': 'Marketing', 'category': 'lunch', 'amount': 20.0, 'event': 'Masala zone team lunch', 'date': '2025-06-07'}
+{'user': 'Iysha', 'role': 'employee', 'department': 'Marketing', 'category': 'accomodation ', 'amount': 105.0, 'event': 'Hotel in Rome - Company Retreat', 'date': '2025-06-07'}

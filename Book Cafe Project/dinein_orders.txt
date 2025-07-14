@@ -1,0 +1,38 @@
+Customer: Iysha, Address: 354a queen street
+ - The Little Shop in Kabul
+ - Chai Latte
+ - Baklava
+ - Thousand Splendid Suns
+Total: £10.62
+
+Customer: Iysha, Address: 354 king street
+ - Chai Latte
+ - Rose Kunafa
+ - The Mountains Echoed
+ - Thousand Splendid Suns
+Total: £11.47
+
+Customer: Iysha, Address: 354a
+ - Thousand Splendid Suns: £3.00
+ - Chai Latte: £3.50
+ - Samosa Chaat: £3.50
+Total: £8.50
+
+Customer: Iysha, Address: 354a king street
+ - Arabic Coffee: £2.50
+ - The Kite Runner: £3.00
+ - Mango Lassi: £4.00
+Total: £8.07
+
+Customer: Iysha, Address: 354a king street
+ - Rose Kunafa: £4.00
+ - The Mountains Echoed: £3.00
+ - Chai Latte: £3.50
+Total: £8.92
+
+Customer: Iysha, Address: 354 a king street
+ - Samosa Chaat: £3.50
+ - Chai Latte: £3.50
+ - The Kite Runner: £3.00
+Total: £8.50
+
