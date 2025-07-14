@@ -68,15 +68,15 @@ def login():
 
     for acc in load_accounts():
         if acc[0] == account_number and acc[2] == hash_text(pin):
-            print(f"✅ Welcome {acc[1]}!")
+            print(f"Welcome {acc[1]}!")
             return acc
-    print("❌ Login failed.")
+    print("Login failed.")
     return None
 
 
 def customer_menu(account):
     while True:
-        print("\n💼 Customer Menu")
+        print("\n Customer Menu")
         print("1. Withdraw Cash")
         print("2. Deposit Cash")
         print("3. Add Transaction (Purchase/Refund)")
@@ -100,14 +100,14 @@ def customer_menu(account):
         elif choice == '6':
             transfer_funds(account)
         elif choice == '7':
-            print("🔗 Run: streamlit run money_manager.py")
+            print(" Run: streamlit run money_manager.py")
         elif choice == '8':
             break
 
 
 def admin_menu():
     while True:
-        print("\n🛠️ Admin Menu")
+        print("\n Admin Menu")
         print("1. View All Accounts")
         print("2. Total Cash in Bank")
         print("3. Close Account")
@@ -136,7 +136,7 @@ def update_account_balance(account_number, new_balance):
 def withdraw_cash(account):
     amount = float(input("Enter amount to withdraw (max £100): "))
     if amount > 100:
-        print("❌ Withdrawal limit is £100.")
+        print("Withdrawal limit is £100.")
         return
     balance = float(account[5])
     if amount > balance:
@@ -145,7 +145,7 @@ def withdraw_cash(account):
     new_balance = balance - amount
     update_account_balance(account[0], new_balance)
     save_transaction(account[0], "withdrawal", -amount)
-    print(f"✅ Withdrawn £{amount:.2f}. New Balance: £{new_balance:.2f}")
+    print(f" Withdrawn £{amount:.2f}. New Balance: £{new_balance:.2f}")
 
 
 def deposit_cash(account):
@@ -154,7 +154,7 @@ def deposit_cash(account):
     new_balance = balance + amount
     update_account_balance(account[0], new_balance)
     save_transaction(account[0], "deposit", amount)
-    print(f"✅ Deposited £{amount:.2f}. New Balance: £{new_balance:.2f}")
+    print(f" Deposited £{amount:.2f}. New Balance: £{new_balance:.2f}")
 
 
 def add_transaction(account):
@@ -172,18 +172,18 @@ def add_transaction(account):
     new_balance = balance + amount
     update_account_balance(account[0], new_balance)
     save_transaction(account[0], type_, amount)
-    print(f"✅ Transaction recorded. New Balance: £{new_balance:.2f}")
+    print(f" Transaction recorded. New Balance: £{new_balance:.2f}")
 
 
 def mini_statement(account):
     transactions = [t for t in load_transactions() if t[0] == account[0]]
-    print("\n🧾 Last 5 Transactions:")
+    print("\n Last 5 Transactions:")
     for row in transactions[-5:]:
         print(f"{row[1]} | £{row[2]} | {row[3]}")
 
 
 def view_balance(account):
-    print(f"💷 Current Balance: £{account[5]}")
+    print(f" Current Balance: £{account[5]}")
 
 
 def transfer_funds(account):
@@ -193,7 +193,7 @@ def transfer_funds(account):
 
     sender_balance = float(account[5])
     if sender_balance < amount:
-        print("❌ Insufficient funds.")
+        print(" Insufficient funds.")
         return
 
     found = False
@@ -210,9 +210,9 @@ def transfer_funds(account):
             csv.writer(file).writerows(accounts)
         save_transaction(account[0], f"transfer_to_{target_acc}", -amount)
         save_transaction(target_acc, f"transfer_from_{account[0]}", amount)
-        print(f"✅ £{amount:.2f} transferred to {target_acc}.")
+        print(f" £{amount:.2f} transferred to {target_acc}.")
     else:
-        print("❌ Account not found.")
+        print("Account not found.")
 
 
 def view_all_accounts():
@@ -222,7 +222,7 @@ def view_all_accounts():
 
 def total_cash():
     total = sum(float(acc[5]) for acc in load_accounts() if acc[6] == "customer")
-    print(f"🏦 Total cash in bank: £{total:.2f}")
+    print(f"Total cash in bank: £{total:.2f}")
 
 
 def close_account():
@@ -231,11 +231,11 @@ def close_account():
     updated = [acc for acc in accounts if acc[0] != acc_num]
     with open(ACCOUNTS_FILE, mode='w', newline='') as file:
         csv.writer(file).writerows(updated)
-    print("✅ Account closed.")
+    print("Account closed.")
 
 
 def main():
-    print("🏦 Welcome to Khan Bank")
+    print("Welcome to Khan Bank")
     while True:
         print("\n1. Register")
         print("2. Login")
