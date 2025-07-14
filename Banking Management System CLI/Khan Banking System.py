@@ -59,7 +59,7 @@ def register():
         "0.00",  # balance
         "customer"
     ])
-    print(f"✅ Account created! Your account number is: {account_number}")
+    print(f" Account created! Your account number is: {account_number}")
 
 
 def login():
@@ -140,7 +140,7 @@ def withdraw_cash(account):
         return
     balance = float(account[5])
     if amount > balance:
-        print("❌ Insufficient balance.")
+        print("Insufficient balance.")
         return
     new_balance = balance - amount
     update_account_balance(account[0], new_balance)
@@ -165,7 +165,7 @@ def add_transaction(account):
     elif type_ == "refund":
         amount = abs(amount)
     else:
-        print("❌ Invalid type.")
+        print("Invalid type.")
         return
 
     balance = float(account[5])
