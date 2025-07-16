@@ -3,7 +3,7 @@ Personal Python projects - CLI &amp; GUI
 
 # 🐍 Python Projects Portfolio
 
-Welcome to my Python Projects Repository! This collection showcases Python-based CLI applications across various domains—finance, community tools, reading culture, and ethical investing. All projects are built with simplicity in mind and designed for future scalability.
+Welcome to my Python Projects Repository! This collection showcases Python-based CLI applications across various domains—finance, community tools, reading culture, and ethical investing. All projects are built with simplicity in mind and designed for future scalability. AI was used as an aid to create parts of the projects, as I am fairly new to coding. 
 
 ---
 
